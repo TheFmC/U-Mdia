@@ -1,0 +1,9 @@
+{
+  "platform": "windows-x86_64",
+  "version": "0.2.3",
+  "tag": "pc-v0.2.3",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.3/FMC-Media-PC-0.2.3-setup.exe",
+  "sha256": "04cb8bad7f8a78ab7f1cfa2711128ca4ed583fc4097033cac99da9cde0576485",
+  "size": 110750817,
+  "notes": "# FMC Media PC 0.2.3\n\n- One-time passcode activation on first launch; saved across updates and sign-out.\n- Settings → About → Check for updates, plus notification of newer Windows releases at startup.\n- Download & install verifies file size and SHA-256 before opening the installer.\n- Fasel mirror recovery from the public homepage, with retries and verified-origin persistence.\n- Windows has a separate update channel; Android TV 1.0.10 remains the legacy latest APK release.\n\nDownload FMC-Media-PC-0.2.3-setup.exe. Supports Windows 10/11 x64; bundled mpv and source runtime need no separate Python/Node installation."
+}
