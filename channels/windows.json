@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.2.4",
-  "tag": "pc-v0.2.4",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.4/FMC-Media-PC-0.2.4-setup.exe",
-  "sha256": "09e398bece1e2827eacd8af0d167a598865b59a1866d5b19032e20e73d4353ea",
-  "size": 110757836,
-  "notes": "# FMC Media PC 0.2.4\n\n- Arabic Sources now groups each provider and its servers into a separate scrollable column.\n- Fasel matching distinguishes anime from live-action titles with the same name (including Death Note).\n- Better title normalization and season/part/year checks; genuinely ambiguous works still require a choice.\n- Manual work choices are saved locally per provider/title/season and reused for later episodes, including after Fasel mirror changes.\n- Selected anime parts are forwarded correctly to providers.\n\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. This release is for Windows x64."
+  "version": "0.2.5",
+  "tag": "pc-v0.2.5",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.5/FMC-Media-PC-0.2.5-setup.exe",
+  "sha256": "9bf2f46e9b5fc28ce020365c39272c73c92b7efa5fd2f4e7e6dd4e0b443c8a38",
+  "size": 110759436,
+  "notes": "# FMC Media PC 0.2.5\r\n\r\n- Fixed Fasel season navigation for shows whose seasons use clickable cards, including Curb Your Enthusiasm season 7.\r\n- Verify season identity before selecting an exact episode; preserve existing episode-page navigation.\r\n- The player title bar now lets you drag the window in windowed playback, while Back remains clickable.\r\n- Decoder details remain available in Stats; removed the raw HW decoder badge from the main playback header.\r\n- Added a visible Episode label to the Arabic Sources episode field.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
