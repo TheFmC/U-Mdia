@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.2.3",
-  "tag": "pc-v0.2.3",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.3/FMC-Media-PC-0.2.3-setup.exe",
-  "sha256": "04cb8bad7f8a78ab7f1cfa2711128ca4ed583fc4097033cac99da9cde0576485",
-  "size": 110750817,
-  "notes": "# FMC Media PC 0.2.3\n\n- One-time passcode activation on first launch; saved across updates and sign-out.\n- Settings → About → Check for updates, plus notification of newer Windows releases at startup.\n- Download & install verifies file size and SHA-256 before opening the installer.\n- Fasel mirror recovery from the public homepage, with retries and verified-origin persistence.\n- Windows has a separate update channel; Android TV 1.0.10 remains the legacy latest APK release.\n\nDownload FMC-Media-PC-0.2.3-setup.exe. Supports Windows 10/11 x64; bundled mpv and source runtime need no separate Python/Node installation."
+  "version": "0.2.4",
+  "tag": "pc-v0.2.4",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.4/FMC-Media-PC-0.2.4-setup.exe",
+  "sha256": "09e398bece1e2827eacd8af0d167a598865b59a1866d5b19032e20e73d4353ea",
+  "size": 110757836,
+  "notes": "# FMC Media PC 0.2.4\n\n- Arabic Sources now groups each provider and its servers into a separate scrollable column.\n- Fasel matching distinguishes anime from live-action titles with the same name (including Death Note).\n- Better title normalization and season/part/year checks; genuinely ambiguous works still require a choice.\n- Manual work choices are saved locally per provider/title/season and reused for later episodes, including after Fasel mirror changes.\n- Selected anime parts are forwarded correctly to providers.\n\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. This release is for Windows x64."
 }
