@@ -1,0 +1,8 @@
+{
+  "platform": "android-tv",
+  "version": "1.0.10",
+  "tag": "v1.0.10",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/v1.0.10/FMC-Media-1.0.10.apk",
+  "size": 145913882,
+  "notes": "Current Android TV release. Existing TV clients continue using GitHub latest until channel migration."
+}
