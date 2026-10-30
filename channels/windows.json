@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.2.5",
-  "tag": "pc-v0.2.5",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.5/FMC-Media-PC-0.2.5-setup.exe",
-  "sha256": "9bf2f46e9b5fc28ce020365c39272c73c92b7efa5fd2f4e7e6dd4e0b443c8a38",
-  "size": 110759436,
-  "notes": "# FMC Media PC 0.2.5\r\n\r\n- Fixed Fasel season navigation for shows whose seasons use clickable cards, including Curb Your Enthusiasm season 7.\r\n- Verify season identity before selecting an exact episode; preserve existing episode-page navigation.\r\n- The player title bar now lets you drag the window in windowed playback, while Back remains clickable.\r\n- Decoder details remain available in Stats; removed the raw HW decoder badge from the main playback header.\r\n- Added a visible Episode label to the Arabic Sources episode field.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.2.6",
+  "tag": "pc-v0.2.6",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.6/FMC-Media-PC-0.2.6-setup.exe",
+  "sha256": "4e5c89694bc0585ee854edd366923a3be670f8d60f1b6ea5aa84b67e9d835562",
+  "size": 110807278,
+  "notes": "# FMC Media PC 0.2.6\n\n- Home: new \"Your Streaming\" row with the subscription services in your region (edit to choose yours); each opens a page of what it streams.\n- Home: \"Top 10 Trending\" with today / this week, large numerals, and a preview card on hover (story, rating, where it streams, Details and Save).\n- New Collections: 140 movie sagas with search across TMDB, categories, \"Continue a saga\", what you've already seen, and a page per collection in release order.\n- Fixed invisible Top 10 numerals on the Movies and Series pages and missing dividers in some settings panels.\n\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
