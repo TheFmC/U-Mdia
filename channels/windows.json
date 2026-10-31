@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.2.6",
-  "tag": "pc-v0.2.6",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.6/FMC-Media-PC-0.2.6-setup.exe",
-  "sha256": "4e5c89694bc0585ee854edd366923a3be670f8d60f1b6ea5aa84b67e9d835562",
-  "size": 110807278,
-  "notes": "# FMC Media PC 0.2.6\r\n\r\n- Home: new \"Your Streaming\" row with the subscription services in your region (edit to choose yours); each opens a page of what it streams.\r\n- Home: \"Top 10 Trending\" with today / this week, large numerals, and a preview card on hover (story, rating, where it streams, Details and Save).\r\n- New Collections: 140 movie sagas with search across TMDB, categories, \"Continue a saga\", what you've already seen, and a page per collection in release order.\r\n- Fixed invisible Top 10 numerals on the Movies and Series pages and missing dividers in some settings panels.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.2.7",
+  "tag": "pc-v0.2.7",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.7/FMC-Media-PC-0.2.7-setup.exe",
+  "sha256": "7aded8c5bf73345f5e2d7f932f6a7b7f64c597cfa834e3d9d8ff3132c524a111",
+  "size": 110824144,
+  "notes": "# FMC Media PC 0.2.7\n\n- Added AnimeRift under Arabic Sources for anime, with Arabic subtitles and 1080p/720p variants from CR2, BBZ and VRV.\n- Works inside FMC without MuMu, root, Anilili or manual configuration imports.\n- Exact title and episode matching keeps different works and seasons separate.\n\nTested on Dragon Ball Super: Beerus, Black Clover Season 2 and Naruto through the bundled source engine, local media relay and mpv. Source quality labels follow provider metadata; actual resolution varies by release."
 }
