@@ -1,8 +1,9 @@
 {
   "platform": "android-tv",
-  "version": "1.0.10",
-  "tag": "v1.0.10",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/v1.0.10/FMC-Media-1.0.10.apk",
-  "size": 145913882,
-  "notes": "Current Android TV release. Existing TV clients continue using GitHub latest until channel migration."
+  "version": "1.0.11",
+  "tag": "v1.0.11",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/v1.0.11/FMC-Media-1.0.11.apk",
+  "size": 145936238,
+  "sha256": "1fa85962504a6de045be417c4143ae95371b81f82f84041009306a711439eedd",
+  "notes": "AnimeRift Arabic sources (CR2, BBZ, VRV) in 1080p/720p. Updated on-device FaselHD and website settings."
 }
