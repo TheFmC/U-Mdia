@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.2.9",
-  "tag": "pc-v0.2.9",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.9/FMC-Media-PC-0.2.9-setup.exe",
-  "sha256": "61623a683f53f3451d8f10605b17eea0825a3e91998d269338505f6028a7a2e7",
-  "size": 110868595,
-  "notes": "# FMC Media PC 0.2.9\r\n\r\n- Anime lists show each series once: later seasons fold into their first season (Attack on Titan, My Hero Academia, Haikyu and others), while films and separate series keep their own cards.\r\n- Opening an anime season such as \"Attack on Titan Season 3\" shows the whole series on that season, without duplicated episodes.\r\n- Anime films such as Your Name. are shown as movies with a Play button instead of a one-episode list.\r\n- Upcoming episodes show their air date and a countdown instead of a broken image.\r\n- Anime browsing no longer repeats a page while scrolling.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.2.10",
+  "tag": "pc-v0.2.10",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.10/FMC-Media-PC-0.2.10-setup.exe",
+  "sha256": "b6a53b1c4468e81e2c4fe7bdebf98164847137985233b581bb84786acb54c2dc",
+  "size": 110878546,
+  "notes": "# FMC Media PC 0.2.10\r\n\r\n- Arabic Sources now uses a three-column grid with one vertical scroll area. Matching titles, playback hosts, quality buttons and subtitle labels stay inside each provider card.\r\n- Added title/type/year and found / need-a-pick / nothing counts, with distinct text and border states for successful matches, ambiguous versions and unavailable providers.\r\n- Matching versions appear as ranked buttons. Explicit choices are remembered; equivalent version lists can apply a selection to both providers using each provider's own work ID.\r\n- Searches verified English, romaji, Japanese and alternative AniList names after the initial name cannot be matched. Alternative names can also be searched on a single provider.\r\n- Fixed anime films with a single playback episode being mistaken for series. Added verified movie handling for provider entries named Film or numbered zero.\r\n- Your Name. (2016) now matches AnimeRift, WitAnime, Anime4up, Anime Slayer, AnimeSlayer Web and Animeify. Provider protections, removed files and unsupported hosts are shown separately from catalog matches."
 }
