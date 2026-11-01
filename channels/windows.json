@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.2.10",
-  "tag": "pc-v0.2.10",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.10/FMC-Media-PC-0.2.10-setup.exe",
-  "sha256": "b6a53b1c4468e81e2c4fe7bdebf98164847137985233b581bb84786acb54c2dc",
-  "size": 110878546,
-  "notes": "# FMC Media PC 0.2.10\r\n\r\n- Arabic Sources now uses a three-column grid with one vertical scroll area. Matching titles, playback hosts, quality buttons and subtitle labels stay inside each provider card.\r\n- Added title/type/year and found / need-a-pick / nothing counts, with distinct text and border states for successful matches, ambiguous versions and unavailable providers.\r\n- Matching versions appear as ranked buttons. Explicit choices are remembered; equivalent version lists can apply a selection to both providers using each provider's own work ID.\r\n- Searches verified English, romaji, Japanese and alternative AniList names after the initial name cannot be matched. Alternative names can also be searched on a single provider.\r\n- Fixed anime films with a single playback episode being mistaken for series. Added verified movie handling for provider entries named Film or numbered zero.\r\n- Your Name. (2016) now matches AnimeRift, WitAnime, Anime4up, Anime Slayer, AnimeSlayer Web and Animeify. Provider protections, removed files and unsupported hosts are shown separately from catalog matches."
+  "version": "0.2.11",
+  "tag": "pc-v0.2.11",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.11/FMC-Media-PC-0.2.11-setup.exe",
+  "sha256": "8bfcd960a08a2afb5a50a4b019368cc65f97d0f2ad5a164eb99506855c9a6c5b",
+  "size": 110881444,
+  "notes": "# FMC Media PC 0.2.11\n\n- Arabic Sources now uses the selected Source browser design: compact provider navigation on the left and one panel for the selected provider's playback servers.\n- Select a server's quality, then use the clear Play action at the bottom. Selection stays visible while browsing; filters and provider refreshes cannot play a stale or hidden link.\n- Matched/saved work names, version buttons, equivalent-provider choices and alternative title searches remain available in the provider panel. Empty providers are collected below the provider list.\n- Reduced the dialog width and repeated information. Title/episode search is expandable; provider status and search progress remain visible."
 }
