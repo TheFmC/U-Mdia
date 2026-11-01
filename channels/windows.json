@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.2.11",
-  "tag": "pc-v0.2.11",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.11/FMC-Media-PC-0.2.11-setup.exe",
-  "sha256": "8bfcd960a08a2afb5a50a4b019368cc65f97d0f2ad5a164eb99506855c9a6c5b",
-  "size": 110881444,
-  "notes": "# FMC Media PC 0.2.11\n\n- Arabic Sources now uses the selected Source browser design: compact provider navigation on the left and one panel for the selected provider's playback servers.\n- Select a server's quality, then use the clear Play action at the bottom. Selection stays visible while browsing; filters and provider refreshes cannot play a stale or hidden link.\n- Matched/saved work names, version buttons, equivalent-provider choices and alternative title searches remain available in the provider panel. Empty providers are collected below the provider list.\n- Reduced the dialog width and repeated information. Title/episode search is expandable; provider status and search progress remain visible."
+  "version": "0.3.0",
+  "tag": "pc-v0.3.0",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.0/FMC-Media-PC-0.3.0-setup.exe",
+  "sha256": "3573a027e28070b70bb72a87ee35c60c8222b1644f16ac13034df70f58450093",
+  "size": 110928693,
+  "notes": "# FMC Media PC 0.3.0\n\n- New Anime page: Top 10 trending with numbers, this season, top rated, all-time popular, coming soon and genre rows.\n- One switch on the Anime page shows All, Series only or Movies only (All by default); it also filters Browse all.\n- Top rated uses MyAnimeList scores when a free MyAnimeList Client ID is saved in Settings → Metadata, else AniList scores.\n- Long anime descriptions show three lines with a More button, without the notes appended to them.\n- Library titles imported without artwork (Simkl, Trakt, other devices) now get their poster, name and year.\n\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
