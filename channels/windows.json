@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.4",
-  "tag": "pc-v0.3.4",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.4/FMC-Media-PC-0.3.4-setup.exe",
-  "sha256": "66c9524e5ec1487608d3d231b52b83e7ec89b9b5dcca3ab1b6d7b7b4b22cb8e0",
-  "size": 110967458,
-  "notes": "# FMC Media PC 0.3.4\n\n- Top 10 rows on Home, Movies, Series and Anime now fit all ten titles in a single row, including in a smaller window. Hover previews and title navigation remain available.\n- Ranking 10 has its own space for both digits so its poster cannot hide the zero.\n- Collections is now a main navigation destination directly below Discover. Browse saga artwork, movie counts, categories and TMDB collection search, then open the movies in release order.\n- The Home Collections row opens the same catalogue. Collection loading failures offer Retry instead of silently removing the row; category filters wrap within the page."
+  "version": "0.3.5",
+  "tag": "pc-v0.3.5",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.5/FMC-Media-PC-0.3.5-setup.exe",
+  "sha256": "dca77fa4b538566d39e78e654eb4ed78286cff16ed2b2fb34219f8c4bb1f5f2b",
+  "size": 110967305,
+  "notes": "# FMC Media PC 0.3.5\n\n- Rank 10 now uses broad, naturally proportioned digits, matching the reference. Its slot has extra room while its poster and numeral retain the same height as the other titles.\n- All ten titles still fit together on Home, Movies, Series and Anime Highlights.\n- Includes Collections under Discover and on Home, with artwork, movie counts, categories, search and movies in release order."
 }
