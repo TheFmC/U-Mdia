@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.2.8",
-  "tag": "pc-v0.2.8",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.8/FMC-Media-PC-0.2.8-setup.exe",
-  "sha256": "8fd06b10f120e15050e84bb5a552b93c810721062d7a099febe4d66627fc1380",
-  "size": 110847262,
-  "notes": "# FMC Media PC 0.2.8\r\n\r\n- Updates install over the existing version, keeping your library, progress and settings. Future in-app upgrades close FMC and restart it after installation.\r\n- Redesigned title pages: cinematic banner, watch availability, episodes, crew/cast, recommendations, media gallery and title information.\r\n- Replaced the overflowing season strip with a compact season selector that works in smaller windows.\r\n- Anime pages include the other seasons from their explicitly matched IMDb series. Demon Slayer now includes all five canonical seasons and specials, with the existing AniList episode mapping preserved.\r\n- AnimeRift (CR2, BBZ, VRV) remains available under Arabic Sources at 1080p/720p.\r\n\r\nMedia and availability depend on metadata coverage and configured services. Episode season numbering follows the canonical series catalog."
+  "version": "0.2.9",
+  "tag": "pc-v0.2.9",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.2.9/FMC-Media-PC-0.2.9-setup.exe",
+  "sha256": "61623a683f53f3451d8f10605b17eea0825a3e91998d269338505f6028a7a2e7",
+  "size": 110868595,
+  "notes": "# FMC Media PC 0.2.9\n\n- Anime lists show each series once: later seasons fold into their first season (Attack on Titan, My Hero Academia, Haikyu and others), while films and separate series keep their own cards.\n- Opening an anime season such as \"Attack on Titan Season 3\" shows the whole series on that season, without duplicated episodes.\n- Anime films such as Your Name. are shown as movies with a Play button instead of a one-episode list.\n- Upcoming episodes show their air date and a countdown instead of a broken image.\n- Anime browsing no longer repeats a page while scrolling.\n\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
