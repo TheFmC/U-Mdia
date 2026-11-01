@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.3",
-  "tag": "pc-v0.3.3",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.3/FMC-Media-PC-0.3.3-setup.exe",
-  "sha256": "ab41358dd1cfd7e076be03b2f758961d63384f97758e25ad568df0fa8d00a726",
-  "size": 110967139,
-  "notes": "# FMC Media PC 0.3.3\n\n- Anime pages now load previous and next seasons through verified AniList prequel/sequel relations, including when opening an upcoming season from Search or Coming soon.\n- Season-specific AniList, MAL and Kitsu identifiers stay attached to the corresponding episodes. Choosing Season 1 on a Season 2 page no longer sends Season 2's title or identifiers to source providers.\n- The main Play/Resume button follows the selected season. Upcoming seasons remain visible and cannot play undated catalog placeholders before release.\n- Verified Dandadan entry routes for Seasons 1, 2 and 3, canonical episode coordinates and per-season source requests."
+  "version": "0.3.4",
+  "tag": "pc-v0.3.4",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.4/FMC-Media-PC-0.3.4-setup.exe",
+  "sha256": "66c9524e5ec1487608d3d231b52b83e7ec89b9b5dcca3ab1b6d7b7b4b22cb8e0",
+  "size": 110967458,
+  "notes": "# FMC Media PC 0.3.4\n\n- Top 10 rows on Home, Movies, Series and Anime now fit all ten titles in a single row, including in a smaller window. Hover previews and title navigation remain available.\n- Ranking 10 has its own space for both digits so its poster cannot hide the zero.\n- Collections is now a main navigation destination directly below Discover. Browse saga artwork, movie counts, categories and TMDB collection search, then open the movies in release order.\n- The Home Collections row opens the same catalogue. Collection loading failures offer Retry instead of silently removing the row; category filters wrap within the page."
 }
