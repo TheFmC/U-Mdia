@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.0",
-  "tag": "pc-v0.3.0",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.0/FMC-Media-PC-0.3.0-setup.exe",
-  "sha256": "3573a027e28070b70bb72a87ee35c60c8222b1644f16ac13034df70f58450093",
-  "size": 110928693,
-  "notes": "# FMC Media PC 0.3.0\n\n- New Anime page: Top 10 trending with numbers, this season, top rated, all-time popular, coming soon and genre rows.\n- One switch on the Anime page shows All, Series only or Movies only (All by default); it also filters Browse all.\n- Top rated uses MyAnimeList scores when a free MyAnimeList Client ID is saved in Settings → Metadata, else AniList scores.\n- Long anime descriptions show three lines with a More button, without the notes appended to them.\n- Library titles imported without artwork (Simkl, Trakt, other devices) now get their poster, name and year.\n\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.3.1",
+  "tag": "pc-v0.3.1",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.1/FMC-Media-PC-0.3.1-setup.exe",
+  "sha256": "6bd2a3a43b2a3596f377d247862dff3fa4e77432905387ae6b742a71396cfd36",
+  "size": 110928395,
+  "notes": "# FMC Media PC 0.3.1\n\n- Announced anime seasons show their poster on the title page, with the premiere date (or year, until a day is announced).\n- Airing anime show a countdown to the next episode.\n- Related shows anime only; the source manga no longer opens to \"Title unavailable\".\n- Find episode searches the season you picked first.\n- Upcoming anime cards show their start year.\n\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
