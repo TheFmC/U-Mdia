@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.2",
-  "tag": "pc-v0.3.2",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.2/FMC-Media-PC-0.3.2-setup.exe",
-  "sha256": "a601b4b8c592af1620eba0c2680a80cd8a2cb9f7298d8cb175828c888b20ced2",
-  "size": 110933469,
-  "notes": "# FMC Media PC 0.3.2\n\n- Fixes \"Title unavailable — HTTP 429 Too Many Requests\" on anime pages: the app now paces its AniList requests (about 30 a minute, shared by every page) and waits out AniList's rate limit instead of failing.\n- When AniList is busy, the title page says so and tries again by itself.\n\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.3.3",
+  "tag": "pc-v0.3.3",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.3/FMC-Media-PC-0.3.3-setup.exe",
+  "sha256": "ab41358dd1cfd7e076be03b2f758961d63384f97758e25ad568df0fa8d00a726",
+  "size": 110967139,
+  "notes": "# FMC Media PC 0.3.3\n\n- Anime pages now load previous and next seasons through verified AniList prequel/sequel relations, including when opening an upcoming season from Search or Coming soon.\n- Season-specific AniList, MAL and Kitsu identifiers stay attached to the corresponding episodes. Choosing Season 1 on a Season 2 page no longer sends Season 2's title or identifiers to source providers.\n- The main Play/Resume button follows the selected season. Upcoming seasons remain visible and cannot play undated catalog placeholders before release.\n- Verified Dandadan entry routes for Seasons 1, 2 and 3, canonical episode coordinates and per-season source requests."
 }
