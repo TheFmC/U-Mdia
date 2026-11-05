@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.6",
-  "tag": "pc-v0.3.6",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.6/FMC-Media-PC-0.3.6-setup.exe",
-  "sha256": "1a8ad9c154a75f61f679db227215a2b19f0afe6b8d3cc073e61b18f93598acfe",
-  "size": 114226342,
-  "notes": "Adds Anime3rb and Mycima to Arabic Sources with app-local Cloudflare secure DNS enabled by default. The DNS setting can be changed in Settings > Sources > Arabic Sources and does not change Windows network settings.\n\n- Anime3rb: public 1080p and 720p streams, including translation choices.\n- Mycima: verified Filelions and M1xdrop playback, with current-domain discovery and correct request headers.\n- Native HTTPS supports encrypted DNS and ECH; the app needs no companion server or browser for these providers.\n- Fixed playback of image-wrapped HLS segments and preserved movie/series matching.\n\nValidated six source/quality combinations, the packaged Windows engine with mpv, and automated Python, frontend, and native-network checks. Site availability and access challenges can still affect individual hosts; unverified hosts are not listed as ready to play.\n\nInstall this version over the previous release. Your library, progress, activation, and settings are retained."
+  "version": "0.3.7",
+  "tag": "pc-v0.3.7",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.7/FMC-Media-PC-0.3.7-setup.exe",
+  "sha256": "f1bdda6578406ca6ad0394d5e5c9fb5ec6761054c1b2d090d5cf3c2bad55d279",
+  "size": 114365029,
+  "notes": "# FMC Media PC 0.3.7\r\n\r\n- Stremio account: sign in under Settings → Stremio to link devices through your Library, resume position and watched marks. The first sync saves a backup of your Stremio library on this PC. Add-ons are not touched. The TV app does not use it yet.\r\n- New Stats page: time watched, episodes, movies, streaks, time per month, top genres and most watched titles.\r\n- New episode alerts: a small notice when a Library title gets a new episode. Turn it off under Settings → General → Notifications.\r\n- Top 10 is one tidy row with names, year and rating. A wide window shows all ten; a smaller one scrolls with arrows.\r\n- Discover and Anime open at once from their last saved page, then refresh. Discover no longer loads full title pages before showing anything.\r\n- Season menu inside titles, with each season's year and episode count. Seasons that have their own page, such as Cyberpunk: Edgerunners and Edgerunners 2, now link to each other.\r\n- Related now sits above More like this.\r\n- Subtitles panel: Subtitle and Second subtitle are two rows that open a list grouped by language. A second subtitle now keeps its top and middle positions.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
