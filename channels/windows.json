@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.7",
-  "tag": "pc-v0.3.7",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.7/FMC-Media-PC-0.3.7-setup.exe",
-  "sha256": "f1bdda6578406ca6ad0394d5e5c9fb5ec6761054c1b2d090d5cf3c2bad55d279",
-  "size": 114365029,
-  "notes": "# FMC Media PC 0.3.7\r\n\r\n- Stremio account: sign in under Settings → Stremio to link devices through your Library, resume position and watched marks. The first sync saves a backup of your Stremio library on this PC. Add-ons are not touched. The TV app does not use it yet.\r\n- New Stats page: time watched, episodes, movies, streaks, time per month, top genres and most watched titles.\r\n- New episode alerts: a small notice when a Library title gets a new episode. Turn it off under Settings → General → Notifications.\r\n- Top 10 is one tidy row with names, year and rating. A wide window shows all ten; a smaller one scrolls with arrows.\r\n- Discover and Anime open at once from their last saved page, then refresh. Discover no longer loads full title pages before showing anything.\r\n- Season menu inside titles, with each season's year and episode count. Seasons that have their own page, such as Cyberpunk: Edgerunners and Edgerunners 2, now link to each other.\r\n- Related now sits above More like this.\r\n- Subtitles panel: Subtitle and Second subtitle are two rows that open a list grouped by language. A second subtitle now keeps its top and middle positions.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.3.8",
+  "tag": "pc-v0.3.8",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.8/FMC-Media-PC-0.3.8-setup.exe",
+  "sha256": "2a5e325ca7129659d49fb6d47f385f0859826bc2883b3671ed9fd747f4927d8f",
+  "size": 114415680,
+  "notes": "# FMC Media PC 0.3.8\r\n\r\n- Sync subtitles by ear: in the player's Subtitles panel, pick the line you just heard. Playback goes back 8 seconds; press Enter, Space or click the moment it is spoken, and the timing is set. Works with downloaded or loaded subtitle files.\r\n- Subtitles inside the video file: three buttons show the previous, current or next line at the moment you hear it. The sync stepper also has −1 and +1 second steps.\r\n- Next Up on Home: the next aired, unwatched episode of each series or anime whose last played episode you finished in the past 60 days.\r\n- Customize Home: at the end of Home, hide rows you don't use and move the ones you like to the top. Changes apply right away.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
