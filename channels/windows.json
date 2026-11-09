@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.10",
-  "tag": "pc-v0.3.10",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.10/FMC-Media-PC-0.3.10-setup.exe",
-  "sha256": "16ab4999d606fb15ac01625712a5f2ca951e362f5f650b5ad2d7fe2dca46f9d5",
-  "size": 114420058,
-  "notes": "FMC Media PC 0.3.10 — 4KHDHub Direct\n\n- Added the built-in 4KHDHub provider to All and Direct, alongside the existing sources. Its public HubDrive and HubCloud links work without a TorBox key.\n- Matches the movie title, type and year, or the exact series season and episode. Lists individual releases with filename, quality and size; excludes season packs and other episodes.\n- Generates fresh playback links on selection and validates video bytes and the filename when supplied by the host. HTML landing pages and deleted files are not returned as playable video.\n- Preserves installed addons, keys, Arabic Sources, library and playback settings.\n\nPublic hosts can take several seconds to generate a link. Available quality, HDR/Dolby Vision output and audio depend on the release and device.\n\nValidation: the packaged source engine returned 12 Direct options for Dexter: Resurrection S02E01; mpv decoded the selected 3832×1600 HEVC release. Interstellar returned 18 options. Python, UI and Rust tests passed.\n\nInstall over the current version without uninstalling."
+  "version": "0.3.11",
+  "tag": "pc-v0.3.11",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.11/FMC-Media-PC-0.3.11-setup.exe",
+  "sha256": "1eeef3962130a4215f0ce82a8d6cc3892ae6f5fd195457dab1815fc016fb6957",
+  "size": 114435427,
+  "notes": "FMC Media PC 0.3.11 — KMMovies and Direct source browser\n\n- Added KMMovies as a built-in Direct provider, with public ZIP-ZAP/R2 and SKYDROP resolution. No TorBox key is needed for these links.\n- Direct now uses a provider sidebar like Arabic Sources. Select a provider to see its servers, quality buttons and sizes; encoded, 10-bit and Remux editions remain separate. Choose a quality, then Play.\n- Shows provider loading, unavailable and empty states without replacing the provider being viewed as other searches finish. Filtering remains available.\n- Matches title, year, media type and explicit season/episode identity; season archives are excluded. Generates a fresh link for each selection and validates video bytes and the supplied filename. Failed R2 links can fall back to the other supported host of the same release.\n- Preserves Torrent, Debrid, Arabic Sources, installed addons, keys and library settings.\n\nValidation: 69 Python tests and 35 UI/model tests passed. Browser interactions verified the selected 720p release stays selected after changing providers and is passed to Play. The packaged source engine returned 10 Direct releases and opened a real MKV response with HTTP 206, without TorBox.\n\nRelease labels and available files are supplied by the provider. Some third-party hosts may be unavailable or require website verification; those are not used as automatic fallbacks.\n\nInstall over the current version without uninstalling."
 }
