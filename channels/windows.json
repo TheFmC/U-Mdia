@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.9",
-  "tag": "pc-v0.3.9",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.9/FMC-Media-PC-0.3.9-setup.exe",
-  "sha256": "e4c5edb9e1fd35d92e30c95be5506df57ab3479f7b7402e4dbb40898e2af4921",
-  "size": 114415764,
-  "notes": "# FMC Media PC 0.3.9\r\n\r\n- Watch next episode now appears only in the last moments of an episode (2% of its length, between 20 and 40 seconds), instead of minutes early. Credits that run to the end still offer Next episode on the skip button when they start.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.3.10",
+  "tag": "pc-v0.3.10",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.10/FMC-Media-PC-0.3.10-setup.exe",
+  "sha256": "16ab4999d606fb15ac01625712a5f2ca951e362f5f650b5ad2d7fe2dca46f9d5",
+  "size": 114420058,
+  "notes": "FMC Media PC 0.3.10 — 4KHDHub Direct\n\n- Added the built-in 4KHDHub provider to All and Direct, alongside the existing sources. Its public HubDrive and HubCloud links work without a TorBox key.\n- Matches the movie title, type and year, or the exact series season and episode. Lists individual releases with filename, quality and size; excludes season packs and other episodes.\n- Generates fresh playback links on selection and validates video bytes and the filename when supplied by the host. HTML landing pages and deleted files are not returned as playable video.\n- Preserves installed addons, keys, Arabic Sources, library and playback settings.\n\nPublic hosts can take several seconds to generate a link. Available quality, HDR/Dolby Vision output and audio depend on the release and device.\n\nValidation: the packaged source engine returned 12 Direct options for Dexter: Resurrection S02E01; mpv decoded the selected 3832×1600 HEVC release. Interstellar returned 18 options. Python, UI and Rust tests passed.\n\nInstall over the current version without uninstalling."
 }
