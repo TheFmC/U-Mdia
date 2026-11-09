@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.8",
-  "tag": "pc-v0.3.8",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.8/FMC-Media-PC-0.3.8-setup.exe",
-  "sha256": "2a5e325ca7129659d49fb6d47f385f0859826bc2883b3671ed9fd747f4927d8f",
-  "size": 114415680,
-  "notes": "# FMC Media PC 0.3.8\r\n\r\n- Sync subtitles by ear: in the player's Subtitles panel, pick the line you just heard. Playback goes back 8 seconds; press Enter, Space or click the moment it is spoken, and the timing is set. Works with downloaded or loaded subtitle files.\r\n- Subtitles inside the video file: three buttons show the previous, current or next line at the moment you hear it. The sync stepper also has −1 and +1 second steps.\r\n- Next Up on Home: the next aired, unwatched episode of each series or anime whose last played episode you finished in the past 60 days.\r\n- Customize Home: at the end of Home, hide rows you don't use and move the ones you like to the top. Changes apply right away.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.3.9",
+  "tag": "pc-v0.3.9",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.9/FMC-Media-PC-0.3.9-setup.exe",
+  "sha256": "e4c5edb9e1fd35d92e30c95be5506df57ab3479f7b7402e4dbb40898e2af4921",
+  "size": 114415764,
+  "notes": "# FMC Media PC 0.3.9\r\n\r\n- Watch next episode now appears only in the last moments of an episode (2% of its length, between 20 and 40 seconds), instead of minutes early. Credits that run to the end still offer Next episode on the skip button when they start.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
