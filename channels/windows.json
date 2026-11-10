@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.15",
-  "tag": "pc-v0.3.15",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.15/FMC-Media-PC-0.3.15-setup.exe",
-  "sha256": "d7486a179e7373a0da31791ac4b2ebca345a8bb345275fcc76d3695e2418b3ad",
-  "size": 116194042,
-  "notes": "# FMC Media PC 0.3.15\r\n\r\n- Clicking Forward or Back no longer pauses the video when the controls are fading out. The controls stay up while the pointer rests on them.\r\n- Right-click Forward or Back to choose how far it jumps (5, 10 or 30 seconds, or any time from 1 second to 2 minutes), separately for the button and arrow keys and for Shift + arrows. The jump length is shown inside the button.\r\n- Up Next: a tab on the right edge opens every episode, season by season, with watched marks and progress. Play any episode, or restart the one playing.\r\n- A new Up next card near the end of an episode shows the next episode's picture and name with a countdown, and plays it when the episode ends unless you dismiss it.\r\n- The resolution (4K, 1440P, 1080P…) and HDR format (Dolby Vision, HDR10, HLG) appear next to the title.\r\n- Download the video you are watching from the player. Settings → General → Downloads chooses between asking where to save each time and a default folder. Downloads resume if interrupted; streams split into many pieces (HLS/DASH) can't be saved as one file.\r\n- Scroll the mouse wheel over the video to change the volume.\r\n- The skip-time menu and Up Next panel use a black, see-through look.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.3.16",
+  "tag": "pc-v0.3.16",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.16/FMC-Media-PC-0.3.16-setup.exe",
+  "sha256": "6a3dd10a401dd6afb29ff502d75f6ba96cafae29a2a2aef255c7d45928408dab",
+  "size": 116192175,
+  "notes": "# FMC Media PC 0.3.16\r\n\r\n- Search opens on a start screen before you type: your recent searches (tap one to search again, remove one, or clear history), Jump to buttons for every page, Try a genre (opens Movies or Series → Browse all with that genre), and Surprise me for a random popular title of the type you picked.\r\n- The search box closes with the Esc key shown at its right.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
