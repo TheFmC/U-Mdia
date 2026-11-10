@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.13",
-  "tag": "pc-v0.3.13",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.13/FMC-Media-PC-0.3.13-setup.exe",
-  "sha256": "882b065fae7d872565a8b8beb5f8fbce53be40f9eb1c939848d1d7d3ca012f02",
-  "size": 116148624,
-  "notes": "FMC Media PC 0.3.13\n\n- Rich search with a Top match, synopsis, available awards and grouped Movies / Series / Anime results.\n- Right-click posters for details, watchlist, local favorites, watched/unwatched and Simkl list/rating actions. Title pages also include a Simkl status menu.\n- Simkl writes use a persistent retry queue, verified anime cour numbering and protection against older responses overwriting newer choices.\n- Torrent now uses native P2P streaming from peers without a Debrid key. Debrid results stay separate. Authenticated local streaming supports seeking.\n- Includes the FebBox Chrome account connector from 0.3.12. Google sign-in stays in the normal browser; the saved connection is reused until the session expires or is disconnected.\n\nWindows only. Local favorites are separate from Simkl; custom named Simkl lists are not exposed by its write API.\nValidation: 95 native, 84 source and 38 frontend tests passed; real Windows search/context/status UI inspected. P2P tested between local seed/leecher peers with range seeking."
+  "version": "0.3.14",
+  "tag": "pc-v0.3.14",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.14/FMC-Media-PC-0.3.14-setup.exe",
+  "sha256": "8e397cb476c02ca47085611a38dc77bbdfc3812532428fcfeff5157783f71c66",
+  "size": 116148268,
+  "notes": "FMC Media PC 0.3.14\n\n- Fix P2P playback stopping with \"Could not select this torrent file\".\n- Wait for paused torrent initialization before selecting the requested video and starting peer downloads.\n- Remove failed torrent preparation sessions so a retry can start cleanly.\n\nValidation: the new batch-file regression test reproduced the exact error before the fix and passes afterwards. The Magnet/peer integration test now follows the same paused selection path as playback. The bundled mpv successfully decoded a generated video over the authenticated P2P stream from the beginning and after seeking.\n\nWindows only. Debrid, Direct, Arabic Sources and Simkl behavior are unchanged."
 }
