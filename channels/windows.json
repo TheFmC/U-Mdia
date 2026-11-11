@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.16",
-  "tag": "pc-v0.3.16",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.16/FMC-Media-PC-0.3.16-setup.exe",
-  "sha256": "6a3dd10a401dd6afb29ff502d75f6ba96cafae29a2a2aef255c7d45928408dab",
-  "size": 116192175,
-  "notes": "# FMC Media PC 0.3.16\r\n\r\n- Search opens on a start screen before you type: your recent searches (tap one to search again, remove one, or clear history), Jump to buttons for every page, Try a genre (opens Movies or Series → Browse all with that genre), and Surprise me for a random popular title of the type you picked.\r\n- The search box closes with the Esc key shown at its right.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.3.17",
+  "tag": "pc-v0.3.17",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.17/FMC-Media-PC-0.3.17-setup.exe",
+  "sha256": "0f429d50db5fb1f510736a1cd51425a5e164c4ab86fcc536ba7147ca45e72340",
+  "size": 116334844,
+  "notes": "# FMC Media PC 0.3.17\r\n\r\n- Episodes start with the source you chose before: the series remembers the provider, quality, server and release group, and its next episodes play the closest match straight away. A card shows what it is starting, with Choose source if you'd rather pick. When nothing close is found, the source picker opens as usual. Change source at the top of the player picks another; Settings → Playback → Next episodes turns it off or forgets saved sources. Only that description is kept, never a stream link.\r\n- Skip intros: set every part at once (button, automatic or off), and use Always skip on the player's Skip button to skip that part automatically in every episode of the series.\r\n- Each series remembers your audio and subtitle language (or subtitles off) and picks them again on its other episodes.\r\n- Continue Watching shows the frame where you stopped, a Resume button that goes straight to that minute, how long ago you watched, and \"min left\" near the end.\r\n- New Downloads page: play saved videos without internet (with your progress), open their folder, delete them, delete the ones you've watched, or clear files that were moved.\r\n- Your Watchlist on Home, in your own order: drag a poster or use its arrows.\r\n- Up Next shows one season at a time; pick the season from its menu.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
