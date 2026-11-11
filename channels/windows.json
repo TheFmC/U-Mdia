@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.18",
-  "tag": "pc-v0.3.18",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.18/FMC-Media-PC-0.3.18-setup.exe",
-  "sha256": "3af10493e27c0f9e24592a1989f94e0e2e69fb5ed860fadfb9468fb6b385b9e5",
-  "size": 116334997,
-  "notes": "# FMC Media PC 0.3.18\r\n\r\n- Playback diagnostics now show the video bitrate (now and the file's average) and the audio bitrate.\r\n- Anime4K starts faster: built shaders are kept between runs instead of being rebuilt every time a video opens.\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
+  "version": "0.3.19",
+  "tag": "pc-v0.3.19",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.19/FMC-Media-PC-0.3.19-setup.exe",
+  "sha256": "6127fb6799ce7accffd260abfaed78a3ea43407874113fe73613dded4063d4f1",
+  "size": 120616655,
+  "notes": "# FMC Media PC 0.3.19\r\n\r\n- Timeline previews for streams: hover the timeline to see the picture at that moment, with the time and chapter underneath. Streams get their picture on demand from a hidden, low-priority copy of the player, only for where the pointer stops; local files still get all previews made ahead. Torrents are left out so previews never take speed from playback.\r\n- MediaInfo in playback diagnostics: container, overall bitrate and the encoder; video format with profile and level, HDR format (Dolby Vision profile, HDR10+, HDR10), bit depth, colour and mastering data; every audio track's full format name (for example Dolby Digital Plus with Dolby Atmos), channels and bitrate; and every subtitle track. It reads only the start and end of a file or stream. MediaInfo 26.10 by MediaArea is included (BSD-2-Clause).\r\n\r\nUpdate from Settings → About → Check for updates. Activation, library and watch progress are preserved. Windows x64."
 }
