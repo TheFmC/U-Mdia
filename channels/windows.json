@@ -1,9 +1,9 @@
 {
   "platform": "windows-x86_64",
-  "version": "0.3.26",
-  "tag": "pc-v0.3.26",
-  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.26/FMC-Media-PC-0.3.26-setup.exe",
-  "sha256": "5c42174b82fde14c4ce2642fd1780485bbdf7d671ca155e19c4f3bc8258cc970",
-  "size": 120699369,
-  "notes": "# FMC Media PC 0.3.26\n\n- Connects the Wecima Arabic Sources provider to **wecima.sbs** while preserving existing work links and saved source choices.\n- Updates search results and movie/series recognition for the new website.\n- Uses the app's Cloudflare DNS connection for the new domain and improves reporting when a video host refuses playback.\n\n**Known limitation:** live search was verified, but the tested Mixdrop host refuses embedding from wecima.sbs. Successful playback has not been established for that sample. This release does not guarantee that every Wecima video server works.\n\nIncludes the existing Cartoons features from 0.3.25. Windows 10/11, x64.\n\nInstaller: `FMC-Media-PC-0.3.26-setup.exe`  \nSHA-256: `5c42174b82fde14c4ce2642fd1780485bbdf7d671ca155e19c4f3bc8258cc970`\n\nUpdate using Settings → About → Check for updates, or download the installer below."
+  "version": "0.3.29",
+  "tag": "pc-v0.3.29",
+  "url": "https://github.com/TheFmC/U-Mdia/releases/download/pc-v0.3.29/FMC-Media-PC-0.3.29-setup.exe",
+  "sha256": "e6b791f29377da0b479e76b4cb0ed21e2d00713d28412a9212eaa5ec19b12278",
+  "size": 124372244,
+  "notes": "# FMC Media PC 0.3.29\n\n- إضافة **Online Sources** مع 40 مصدرًا، وفحص توفر الفيديو للفيلم أو الحلقة المختارة، مع البحث والتصفية وإعادة المحاولة وإيقاف الفحص.\n- اختيار الجودات المتاحة فعليًا من كل مصدر، مثل **4K و1080p و720p**، بدل الاكتفاء بخيار Adaptive. تظهر الجودات التي يوفرها المصدر فقط.\n- تجديد رابط الجودة المختارة وفحص تشغيله بواسطة **mpv** قبل بدء المشاهدة. تعني علامة التوفر الخضراء أن فيديو العمل المختار اجتاز فحص التشغيل.\n- الحفاظ على مسارات الصوت والترجمة عند اختيار جودة HLS أو DASH، وتحسين عرض الدقة للفيديوهات ذات الأبعاد السينمائية.\n- تحسين عرض المصادر وترتيبها، مع الإبقاء على خيارات Torrent وDirect وDebrid وArabic Sources.\n\nتم اختبار تشغيل 720p و1080p و4K مع الصوت على mpv، واجتازت النسخة اختبارات الواجهة ومحرك المصادر. يختلف التوفر حسب العمل والمصدر ووقت الفحص.\n\n**التثبيت:** Windows 10/11، بمعمارية x64. حمّل ملف EXE أدناه، أو استخدم Settings → About → Check for updates.\n\n**SHA-256:** `e6b791f29377da0b479e76b4cb0ed21e2d00713d28412a9212eaa5ec19b12278`\n\nأُرفق أيضًا ملف التحقق ومصدر مكوّن Online Sources المرخّص مع تعليمات بنائه وإشعاراته؛ هذه الملفات اختيارية للمستخدم العادي."
 }
